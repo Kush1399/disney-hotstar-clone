@@ -4,6 +4,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #131927;
+  color: #fff;
 }
 
 a {
@@ -11,6 +13,78 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feed {
+  display: flex;
+}
+
+.franchise {
+  width: 20%;
+  border-radius: 10px;
+  background-color: transparent;
+  margin: 5px;
+}
+
+.intro-video {
+  width: 100vw;
+  height: 30vh;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.intro-video img, .video-img {
+  width: 100%;
+}
+
+.video-card {
+  width: 19.4%;
+  height: auto;
+  border-radius: 5%;
+  margin: 0.4%;
+  filter: drop-shadow(5px 5px 10px #000);
+}
+
+.video-img {
+  position: absolute;
+  top: 0;
+}
+
+.info {
+  position: relative;
+  margin-top: 30%;
+  margin-left: 50px;
+  max-width: 50%;
+}
+
+.video-play-button {
+  position: absolute;
+}
+
+.footer {
+  height: 100vh;
+}
+
+.nav-div {
+  display: flex;
+  justify-content: space-between;
+}
+.account-info {
+  display: flex;
+  height: 50%;
+  margin: 20px 10px auto 5px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
 }
